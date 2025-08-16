@@ -8,7 +8,7 @@ liquor_sales: # dbt_demo name. This is where dbt looks for from dbt_project.yml 
     jaffle_sql:
       type: bigquery
       method: oauth
-      project: "<YOUR-GCP-PROJECT-ID>" # GCP project id
+      project: "sctp-dsai-468313" # GCP project id
       dataset: "liquor_demo"
       retries: 2
   config:
