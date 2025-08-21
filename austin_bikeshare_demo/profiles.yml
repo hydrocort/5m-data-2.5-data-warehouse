@@ -1,0 +1,15 @@
+austin_bikeshare_demo:
+  target: dev
+  outputs:
+    dev:
+      dataset: austin_bikeshare_demo # in liquor_sales
+      job_execution_timeout_seconds: 300
+      job_retries: 1 # in liquor_sales
+      location: US # in liquor_sales
+      method: oauth # in liquor_sales
+      priority: interactive # in liquor_sales
+      project: sctp-dsai-468313 # in liquor_sales
+      threads: 1 # in liquor_sales
+      type: bigquery # in liquor_sales
+  config:
+    send_anonymous_usage_stats: False

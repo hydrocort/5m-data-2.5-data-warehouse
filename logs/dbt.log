@@ -1,0 +1,32 @@
+[0m14:40:12.749594 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8b2d8464a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8b2c88d030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8b2c88cfd0>]}
+
+
+============================== 14:40:12.754135 | a330cde2-5f87-4abe-bf9b-1afdd5a6ba7a ==============================
+[0m14:40:12.754135 [info ] [MainThread]: Running with dbt=1.9.6
+[0m14:40:12.754569 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/chrisfkh/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt init austin_bikeshare_demo', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:40:12.768985 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object.. Dictionary: {'dir': PosixPath('/home/chrisfkh/.dbt')}
+[0m14:40:12.769436 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m14:40:12.772918 [debug] [MainThread]: Starter project path: /home/chrisfkh/miniconda3/envs/elt/lib/python3.10/site-packages/dbt/include/starter_project
+[0m14:40:12.780296 [info ] [MainThread]: 
+Your new dbt project "austin_bikeshare_demo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:40:12.780772 [info ] [MainThread]: Setting up your profile.
+[0m14:42:51.274567 [info ] [MainThread]: Profile austin_bikeshare_demo written to /home/chrisfkh/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:42:51.276654 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 152.20038, "process_in_blocks": "212504", "process_kernel_time": 0.23693, "process_mem_max_rss": "209056", "process_out_blocks": "80", "process_user_time": 4.130828}
+[0m14:42:51.277500 [debug] [MainThread]: Command `dbt init` succeeded at 14:42:51.277379 after 152.20 seconds
+[0m14:42:51.277926 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8b2d8464a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8a9ce074f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8a9ce06cb0>]}
+[0m14:42:51.278311 [debug] [MainThread]: Flushing usage events
+[0m14:42:52.283442 [debug] [MainThread]: An error was encountered while trying to flush usage events

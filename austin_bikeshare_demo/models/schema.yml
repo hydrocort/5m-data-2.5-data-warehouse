@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: fact_trips
+    description: "Fact table for trips."
+    columns:
+      - name: trip_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+      - name: start_station_id
+        description: "The foreign key to the station dimension table"
+        tests:
+          - relationships:
+              to: ref('dim_station')
+              field: station_id
